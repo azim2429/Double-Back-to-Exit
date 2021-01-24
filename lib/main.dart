@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: DoubleBackToCloseApp(
-          child: MyHomePage(title: 'Demo of Double back exit'),
+          child: MyHomePage(title: 'Demo of Double back to exit the app'),
           snackBar: const SnackBar(
-            content: Text('Tap back again to exit'),
+            content: Text('Tap back again to close the app'),
             backgroundColor: Colors.red,
           ),
         ),
